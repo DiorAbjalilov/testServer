@@ -3,7 +3,7 @@ const consoleLog = async (req, res) => {
     console.log(req.query);
     res.status(200).json({
       message: "success",
-      data: req.query,
+      data: "test",
     });
   } catch (error) {
     console.log(error);
